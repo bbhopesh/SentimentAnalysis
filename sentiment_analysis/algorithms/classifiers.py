@@ -16,7 +16,7 @@ from sklearn.metrics import roc_curve, precision_recall_curve, auc, accuracy_sco
 
 train_x,train_y,test_x,test_y = u_feat_eng.sample_method_for_reference()
 print('data loaded')
-net = perceptron.Perceptron(penalty='l2',n_iter=10)
+net = perceptron.Perceptron(penalty='l2', n_iter=10)
 net.fit(train_x,train_y)
 print ("Accuracy   " + str(net.score(test_x, test_y)*100) + "%")
 

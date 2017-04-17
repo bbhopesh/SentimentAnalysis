@@ -16,15 +16,17 @@ def sample_method_for_reference():
     x_train = feat_vectorizer.fit_transform(train_review_files)
     y_train = train_review_labels
     x_test = feat_vectorizer.fit_transform(test_review_files)
-    y_test = test_review_files
+    y_test = test_review_labels
 
-    #save file
-    np.savetxt("outfile_x_train", x_train)
-    np.savetxt("outfile_y_train", y_train)
-    np.savetxt("outfile_x_test", x_test)
-    np.savetxt("outfile_y_test", y_test)
 
     return x_train,y_train,x_test,y_test
+
+    #save file
+    np.save("outfile_x_train", x_train)
+    np.save("outfile_y_train", y_train)
+    np.save("outfile_x_test", x_test)
+    np.save("outfile_y_test", y_test)
+
 
     # Tune and Train your algorithms after this step.
     # To tune use 5-fold method, there's a convenient way in scikit-learn to do 5-fold.
