@@ -1,0 +1,36 @@
+Running with top 100 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Multinomial naive bayes
+		Starting 5-fold paramter tuning.
+		Best params are found to be () with accuracy 0.71056
+		Accuracy for params {(): 0.71055999999999997}
+Running with top 500 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Multinomial naive bayes
+		Starting 5-fold paramter tuning.
+		Best params are found to be () with accuracy 0.77492
+		Accuracy for params {(): 0.77492000000000005}
+Running with top 1000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Multinomial naive bayes
+		Starting 5-fold paramter tuning.
+		Best params are found to be () with accuracy 0.7996
+		Accuracy for params {(): 0.79960000000000009}
+Running with top 10000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Multinomial naive bayes
+		Starting 5-fold paramter tuning.
+		Best params are found to be () with accuracy 0.83552
+		Accuracy for params {(): 0.83552000000000004}
+Running with top 100000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Multinomial naive bayes
+		Starting 5-fold paramter tuning.
+		Best params are found to be () with accuracy 0.68388
+		Accuracy for params {(): 0.68388000000000004}
+Running with top None uni/bi/trigrams as features.
+	Read and trasformed data.
+	Multinomial naive bayes
+		Starting 5-fold paramter tuning.
+		Best params are found to be () with accuracy 0.19148
+		Accuracy for params {(): 0.19148000000000001}

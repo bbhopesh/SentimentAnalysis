@@ -1,0 +1,8 @@
+{
+    "logistic_regression": {
+        "C": 100000, 
+        "accuracy": 0.91311999999999993, 
+        "featurs_size": 100000, 
+        "regularization": "l1"
+    }
+}

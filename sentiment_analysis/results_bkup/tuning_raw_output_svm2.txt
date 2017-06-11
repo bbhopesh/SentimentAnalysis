@@ -1,0 +1,43 @@
+Running with top 100 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('rbf', 1) with accuracy 0.70932
+		Accuracy for params {('rbf', 1): 0.70931999999999995}
+	Starting training.
+	Accuracy   81.672%
+--------------------------------------------------------------------
+Running with top 500 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('rbf', 1) with accuracy 0.20012
+		Accuracy for params {('rbf', 1): 0.20011999999999999}
+	Starting training.
+	Accuracy   83.072%
+--------------------------------------------------------------------
+Running with top 1000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('rbf', 1) with accuracy 0.16384
+		Accuracy for params {('rbf', 1): 0.16384000000000001}
+	Starting training.
+	Accuracy   81.836%
+--------------------------------------------------------------------
+Running with top 10000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('rbf', 1) with accuracy 0.15404
+		Accuracy for params {('rbf', 1): 0.15404000000000001}
+	Starting training.
+	Accuracy   81.112%
+--------------------------------------------------------------------
+Running with top 100000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('rbf', 1) with accuracy 0.14092
+		Accuracy for params {('rbf', 1): 0.14091999999999999}
+	Starting training.

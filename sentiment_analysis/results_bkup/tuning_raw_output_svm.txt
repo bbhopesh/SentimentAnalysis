@@ -1,0 +1,4 @@
+Running with top 100 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.

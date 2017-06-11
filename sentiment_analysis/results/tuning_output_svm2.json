@@ -1,0 +1,8 @@
+{
+    "svm": {
+        "C": 1, 
+        "accuracy": 0.70931999999999995, 
+        "featurs_size": 100, 
+        "kernel": "rbf"
+    }
+}

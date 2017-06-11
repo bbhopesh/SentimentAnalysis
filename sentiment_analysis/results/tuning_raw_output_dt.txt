@@ -1,0 +1,36 @@
+Running with top 100 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Decision Tree
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('entropy', None) with accuracy 0.66388
+		Accuracy for params {('gini', 100000): 0.65739999999999998, ('entropy', None): 0.66388000000000003, ('gini', None): 0.65676000000000001, ('entropy', 100000): 0.66147999999999996, ('gini', 10000): 0.65920000000000001, ('entropy', 10000): 0.66152}
+Running with top 500 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Decision Tree
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('gini', None) with accuracy 0.67528
+		Accuracy for params {('gini', 100000): 0.67095999999999989, ('entropy', None): 0.66539999999999999, ('gini', None): 0.67527999999999999, ('entropy', 100000): 0.66248000000000007, ('gini', 10000): 0.67471999999999999, ('entropy', 10000): 0.66300000000000003}
+Running with top 1000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Decision Tree
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('gini', 10000) with accuracy 0.66964
+		Accuracy for params {('gini', 100000): 0.66568000000000005, ('entropy', None): 0.66271999999999998, ('gini', None): 0.66735999999999995, ('entropy', 100000): 0.66371999999999987, ('gini', 10000): 0.66964000000000001, ('entropy', 10000): 0.66423999999999994}
+Running with top 10000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Decision Tree
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('gini', 10000) with accuracy 0.65948
+		Accuracy for params {('gini', 100000): 0.65815999999999997, ('entropy', None): 0.64924000000000004, ('gini', None): 0.65772000000000008, ('entropy', 100000): 0.65007999999999999, ('gini', 10000): 0.65947999999999996, ('entropy', 10000): 0.65212000000000003}
+Running with top 100000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	Decision Tree
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('gini', 10000) with accuracy 0.65892
+		Accuracy for params {('gini', 100000): 0.65736000000000006, ('entropy', None): 0.65151999999999999, ('gini', None): 0.65456000000000003, ('entropy', 100000): 0.65199999999999991, ('gini', 10000): 0.65891999999999995, ('entropy', 10000): 0.64992000000000005}
+Running with top None uni/bi/trigrams as features.
+	Read and trasformed data.
+	Decision Tree
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('entropy', 10000) with accuracy 0.65448
+		Accuracy for params {('gini', 100000): 0.64739999999999998, ('entropy', None): 0.65171999999999997, ('gini', None): 0.6492, ('entropy', 100000): 0.65312000000000003, ('gini', 10000): 0.65015999999999996, ('entropy', 10000): 0.65448000000000006}

@@ -1,0 +1,31 @@
+{
+    "perceptron": {
+        "accuracy": 0.89739999999999998,
+        "epochs": 10,
+        "featurs_size": 100000,
+        "learning_rate": 0.005,
+        "regularization": "l2"
+    },
+    "logistic_regression": {
+        "C": 100000,
+        "accuracy": 0.91311999999999993,
+        "featurs_size": 100000,
+        "regularization": "l1"
+    },
+    "multinomial_naive_bayes": {
+        "accuracy": 0.83552000000000004,
+        "featurs_size": 100000
+    },
+    "decision_tree": {
+        "accuracy": 0.67588000000000004,
+        "criterion": "gini",
+        "featurs_size": 500,
+        "max_depth": 500
+    },
+    "svm": {
+        "C": 1,
+        "accuracy": 0.89307999999999998,
+        "featurs_size": 100000,
+        "kernel": "linear"
+    }
+}

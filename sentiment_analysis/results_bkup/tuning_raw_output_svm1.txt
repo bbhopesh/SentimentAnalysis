@@ -1,0 +1,49 @@
+Running with top 100 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('linear', 1) with accuracy 0.74892
+		Accuracy for params {('linear', 1): 0.74892000000000003}
+	Starting training.
+	Accuracy   82.052%
+--------------------------------------------------------------------
+Running with top 500 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('linear', 1) with accuracy 0.81856
+		Accuracy for params {('linear', 1): 0.81856000000000007}
+	Starting training.
+	Accuracy   87.096%
+--------------------------------------------------------------------
+Running with top 1000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('linear', 1) with accuracy 0.83872
+		Accuracy for params {('linear', 1): 0.83872000000000013}
+	Starting training.
+	Accuracy   88.552%
+--------------------------------------------------------------------
+Running with top 10000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('linear', 1) with accuracy 0.87616
+		Accuracy for params {('linear', 1): 0.87615999999999994}
+	Starting training.
+	Accuracy   93.44%
+--------------------------------------------------------------------
+Running with top 100000 uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.
+		Best params are found to be ('linear', 1) with accuracy 0.89308
+		Accuracy for params {('linear', 1): 0.89307999999999998}
+	Starting training.
+	Accuracy   96.72%
+--------------------------------------------------------------------
+Running with top None uni/bi/trigrams as features.
+	Read and trasformed data.
+	SVM
+		Starting 5-fold paramter tuning.

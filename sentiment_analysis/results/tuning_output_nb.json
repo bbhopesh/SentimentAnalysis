@@ -1,0 +1,7 @@
+{
+    "multinomial_naive_bayes": {
+        "accuracy": 0.83552000000000004, 
+        "featurs_size": 10000
+    }
+
+}

@@ -1,0 +1,4 @@
+Running with top None uni/bi/trigrams as features.
+	Read and trasformed data.
+	Perceptron
+		Starting 5-fold paramter tuning.
