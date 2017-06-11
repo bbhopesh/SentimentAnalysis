@@ -12,7 +12,8 @@ The binary classifiers and trained and evaluated are as follows:
 
 
 ## Running code.
-`python train_main.py`
+`python train_main.py` <br/>
+We need `scikit-learn` and `python2` to run code.
 
 
 ## Results.
